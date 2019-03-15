@@ -47,14 +47,6 @@ public class IndexTreeBuilder {
 	private Map<String, List<IndexNote>> indexInfoRoster;
 
 
-////	//main method to test
-//	public static void main(String[] args) throws Exception {
-//		//IndexTreeBuilder builder = new IndexTreeBuilder("Boats", "E", 10, true);
-//		IndexTreeBuilder builder = new IndexTreeBuilder();
-//		builder.build();
-////
-////
-//	}
 
 	/** 
 	 * This method is a constructor which is to
@@ -65,13 +57,6 @@ public class IndexTreeBuilder {
 	 */
 	public IndexTreeBuilder() {
 
-		//for test
-//		Map<String, IndexNote> temp = new HashMap<String, IndexNote>();
-//		temp.put("Boats", new IndexNote("E",false,10));
-//		temp.put("Sailors", new IndexNote("A",true,15));
-//
-//
-//		indexInfoRoster = temp;
 
 		indexInfoRoster = DataBase.getInstance().getIndexInfos();
 
